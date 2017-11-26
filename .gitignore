@@ -1,0 +1,14 @@
+# Log Files
+*.log
+# Intellij
+*.iml
+*/*.iml
+*/.idea/
+# Java class files
+*.class
+# IntelliJ IDEA Project files
+.idea
+*.iml
+*.ipr
+*.iws
+out
