@@ -1,5 +1,6 @@
 package com.taotao.dao;
 
+import com.taotao.pojo.TbItemParamExample;
 import com.taotao.pojo.TbItemParamItem;
 import com.taotao.pojo.TbItemParamItemExample;
 import org.apache.ibatis.annotations.Param;

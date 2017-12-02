@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @Author: upsmart
  * @Description:
  * @Date: Created by 下午3:03 on 17-11-25.
- * @Modified By:
+ * @Modified By:yy
  */
 
 @Controller
@@ -40,8 +40,8 @@ public class ItemController {
 
     @RequestMapping(value = "/item/save",method = RequestMethod.POST)
     @ResponseBody
-    public TaotaoResult addItems(TbItem tbItem,String desc) {
-        TaotaoResult result = itemService.createItem(tbItem,desc);
+    public TaotaoResult addItems(TbItem tbItem,String desc,String itemParams) throws Exception {
+        TaotaoResult result = itemService.createItem(tbItem,desc,itemParams);
         return result;
     }
 }
