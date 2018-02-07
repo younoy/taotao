@@ -56,6 +56,21 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.0.1</version>
         </dependency>
+        <!-- JSP相关 -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jsp-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
 </project>

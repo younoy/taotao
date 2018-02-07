@@ -2,10 +2,10 @@
  Date: 2014-01-21 
  */
 function login() {
-    return location.href = "http://localhost:8084/user/showLogin";
+    return location.href = "http://localhost:8084/page/login";
 }
 function regist() {
-    return location.href = "http://localhost:8084/user/showRegister";
+    return location.href = "http://localhost:8084/page/register";
 }
 function createCookie(a, b, c, d) {
     var d = d ? d : "/";
@@ -32,6 +32,7 @@ function addToFavorite() {
 }
 function search(a) {
     var b = "http://localhost:8082/search.html?q=" + encodeURIComponent(document.getElementById(a).value);
+    // var b = "/search.html?q=" + encodeURIComponent(document.getElementById(a).value);
     return window.location.href = b;
 }
 window.pageConfig = window.pageConfig || {}, pageConfig.wideVersion = function() {
